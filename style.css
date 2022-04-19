@@ -99,3 +99,13 @@
   text-align: left;
   margin-left: 430px;
 }
+
+.Work h3 {
+  text-decoration: underline;
+}
+.placement_holders {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 500px;
+}
