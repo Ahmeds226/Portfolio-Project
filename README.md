@@ -13,7 +13,7 @@ For this assignment I have created a Portfolio. The portfolio entails details su
 In additon to this I have made the application responsive and accesibble via different devices.
 
 Preview:
-<img src="/images/Preview.png">
+<img src="Portfolio-Project/Images/Preview.png">
 
 Deployable URL:
 https://ahmeds226.github.io/Portfolio-Project/
