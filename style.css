@@ -1,0 +1,101 @@
+:root {
+  --white: #ffffff;
+  --red: #d0312d;
+  --black: #000;
+  --yellow: #d9f100;
+  --green: #3cb043;
+  --blue: #3944bc;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.MyPortfolio {
+  background-color: var(--blue);
+  padding: 15px;
+  position: sticky;
+  top: 0px;
+}
+
+.MyPortfolio h1 a {
+  color: var(--white);
+  margin-left: 10px;
+  text-decoration: underline overline var(--yellow);
+  font-size: 40px;
+}
+
+.MyPortfolio a:hover {
+  color: var(--yellow);
+}
+
+.nav {
+  float: right;
+  margin-right: 5px;
+}
+
+.nav ul {
+  margin-top: -40px;
+}
+
+.nav li {
+  display: inline;
+  font-size: 30px;
+  margin-left: 30px;
+  text-decoration: underline;
+}
+
+.nav a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: var(--yellow);
+}
+
+.RecentPhoto {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--blue);
+  padding: 10vh 5vh 10vh 5vh;
+}
+
+.DeveloperRecentPhoto {
+  width: 250px;
+  border-radius: 10%;
+}
+
+.DeveloperRecentPhoto:hover {
+  transform: scale(1.25);
+}
+
+.Welcome h1 {
+  font-size: 40px;
+  color: var(--white);
+  text-align: center;
+}
+
+.Welcome h2 {
+  font-size: 30px;
+  color: var(--yellow);
+  text-align: center;
+  text-decoration: underline overline var(--white);
+}
+
+.about {
+  padding: 5vh 0vh 5vh 0vh;
+}
+
+.aboutmecontainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sub-section h2 {
+  font-size: 40px;
+  text-align: left;
+  margin-left: 430px;
+}

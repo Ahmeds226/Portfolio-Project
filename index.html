@@ -10,25 +10,25 @@
 
   <!-- Navigation. -->
   <body>
-    <header class="My Portfolio.">
-      <h1><a href=""></a> My Portfolio</h1>
-      <nav class="Navigation Bar.">
-        <ul class="Navigation Buttons.">
-          <li><a href="about me navigation bar">About Me</a></li>
-          <li><a href="work navigation bar">Work</a></li>
-          <li><a href="Contact me navigation bar">Contact Me</a></li>
+    <header class="MyPortfolio">
+      <h1><a href="">My Portfolio<a></h1>
+      <nav class="nav">
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#Work">Work</a></li>
+          <li><a href="#ContactMe">Contact Me</a></li>
         </ul>
       </nav>
     </header>
 
     <!-- Introduction. -->
-    <section class="Developers Recent Photo or Avatar.">
+    <section class="RecentPhoto">
       <img
-        class="Developers Recent Photo"
+        class="DeveloperRecentPhoto"
         src="Images/Portfolio..jpeg"
         alt="Picture of Developer."
       />
-      <div class="Welcome.">
+      <div class="Welcome">
         <h1>My name is Ahmed Shahnawaz</h1>
         <h2>and</h2>
         <h1>Welcome to my portfolio.</h1>
@@ -36,8 +36,12 @@
     </section>
 
     <!-- About Me. -->
-    <main class="About Me.">
+    <main id="about" class="about">
+        <div class="sub-section">
       <h2>About me:</h2>
+    </div>
+    <div class="aboutmecontainer">
+        <div class="bio">
       <p>
         My name is Ahmed Shahnawaz and I am currently in my placement year at
         Aston University. Within the placement year, I am currently undertaking
@@ -48,15 +52,23 @@
         go to the gym. Moreover, I am currently playing a game called Elden
         Ring.
       </p>
+    </div>
+    </div>  
     </main>
 
     <!-- Work. -->
     <section class="Work">
       <h2>Work</h2>
+      <div class="ImagesContainer">
+        <h3>Horiseon Website:</h3>
+        <a class="1st_project" href="https://github.com/Ahmeds226" target="_blank"><img src="/Portfolio-Project/Images/01-html-css-git-homework-demo.png" alt="Preview of my Horiseon website."></a>
+        <img class="placement_holders" src="/Portfolio-Project/Images/react.png" alt="React Js logo.">
+        <img class="placement_holders" src="/Portfolio-Project/Images/Node JS.png" alt="Node Js logo.">
+      </div>
     </section>
 
     <!-- Contact me. -->
-    <footer class="Contact Me">
+    <footer class="ContactMe">
       <h2>Contact Me:</h2>
       <nav>
         <ul>
