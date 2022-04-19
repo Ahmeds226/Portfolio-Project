@@ -34,10 +34,12 @@
 .nav {
   float: right;
   margin-right: 5px;
+  flex-wrap: wrap;
 }
 
 .nav ul {
   margin-top: -40px;
+  flex-wrap: wrap;
 }
 
 .nav li {
@@ -45,11 +47,13 @@
   font-size: 30px;
   margin-left: 30px;
   text-decoration: underline;
+  flex-wrap: wrap;
 }
 
 .nav a {
   color: var(--white);
   text-decoration: none;
+  flex-wrap: wrap;
 }
 
 .nav a:hover {
@@ -103,9 +107,33 @@
 .Work h3 {
   text-decoration: underline;
 }
+
+.ImagesContainer {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .placement_holders {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   width: 500px;
+}
+
+@media (max-width: 768px) {
+  .project,
+  .placement_holders {
+    min-width: 30%;
+  }
+}
+@media (max-width: 576px) {
+  .project,
+  .placement_holders {
+    min-width: 50%;
+  }
 }
