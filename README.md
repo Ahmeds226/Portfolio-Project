@@ -12,5 +12,10 @@ For this assignment I have created a Portfolio. The portfolio entails details su
 
 In additon to this I have made the application responsive and accesibble via different devices.
 
-Deployable URL:
+## Preview:
+
+  <img src="./Images/Preview.png" alt="">
+
+## Deployable URL:
+
 https://ahmeds226.github.io/Portfolio-Project/
